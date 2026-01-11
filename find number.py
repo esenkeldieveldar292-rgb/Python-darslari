@@ -1,5 +1,5 @@
 import random
-secret_number = random.randint(1,20)
+secret_number = random.randint(1,30)
 
 attempts = 0
 while True:
@@ -13,6 +13,6 @@ while True:
         print("Ko'proq son kiriting ")
     elif guess > secret_number:
         print("Kamroq son kiriting")
-    if guess < 1  or guess >20:
+    if guess < 1  or guess >30:
         print("Faqat 1 dan 10 gacha bo'lgan sonlarni kiriting")
         continue
