@@ -32,5 +32,5 @@ while True:
 	    print("Dastur tugadi")
 	    break
     else:
-	    print("Xoto faqat 1 dan 4 gacha bo'lagan sonlar")
+	    print("Xoto: Faqat 1 dan 4 gacha bo'lgan sonlarni kiriting")
 
