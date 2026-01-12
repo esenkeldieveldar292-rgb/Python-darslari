@@ -1,18 +1,18 @@
 while True:
-	yosh = int(input("Yoshingizni kiriting>>"))
-	if yosh ==0:
+	age = int(input("Yoshingizni kiriting>>"))
+	if age ==0:
 		print("Dostur tugadi")
 		break
-	elif yosh <= 3:
+	elif age <= 3:
 		price = 0
-	elif yosh <= 10:
+	elif age <= 10:
 		price = 2000
-	elif yosh <=18:
+	elif age <=18:
 		price = 5000
-	elif yosh <=35:
+	elif age <=35:
 		price = 7000
-	elif yosh <= 65:
+	elif age <= 65:
 		price =10000
-	elif yosh >=66:
+	elif age >=66:
 		price = 4000
 	print(f" Sizning yol kirangiz {price} ")
